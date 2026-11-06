@@ -14,7 +14,9 @@ I asked the business leads and the developers why new features had to wait. Both
 
 ## We started with a spreadsheet
 
-The business team was already using Excel to work around a problem. I picked that one. We could see how people did the work, agree on a small first version, and keep the spreadsheet as a fallback.
+The business team used Excel to answer two questions about each person. Did they already have a membership? Had we sent them an invitation to try it?
+
+I picked that workflow for our first small release. The spreadsheet showed us what the first version needed to track, and the business team could keep it as a fallback.
 
 Three weeks later, we had a demo. The people doing the work in Excel wanted to use it.
 
