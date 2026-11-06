@@ -14,13 +14,13 @@ I asked the business leads and the developers why new features had to wait. Both
 
 ## We started with a spreadsheet
 
-The business team used Excel to answer two questions about each prospect. Did he or she already have a membership? Had we sent him/her an invitation to try it?
+The business team used Excel to answer two questions about each prospect. Did they already have a membership? Had we sent them an invitation to try it?
 
 I picked that workflow for our first small release. The spreadsheet showed us what the first version needed to track, and the business team could keep it as a fallback.
 
-Three weeks later, we had a demo of the new feature. It solved the problem better as it integrated with our data about the person, and by having that we did not only remove the excel work but also time to manage and cross references data between different systems. The people doing the work in Excel wanted to use it.
+Three weeks later, we had a demo of the new feature. It showed membership and invitation status alongside the information we already had about each prospect. The business team could stop updating the spreadsheet and spend less time cross-checking records across systems. They wanted to start using it.
 
-Our testers were already booked, and the version they were testing included other changes planned for the big release. To release the feature on its own, we needed to test it against the software people were already using.
+Then we had to find time to test it. Our testers were already booked for the big release. To release our feature on its own, we needed to test it against the software people were already using.
 
 I worked with Li and another tester to decide which of their other tasks could wait. We set up a separate place to test the feature. People from the business tried it before launch.
 
@@ -34,7 +34,9 @@ I asked all the developers to take turns handling urgent fixes and agree on whic
 
 We also took one wait out of testing. Testers used to wait for a developer to deploy each new version to a test environment. We automated that step. When developers merged a change into the shared code, it went straight to the right test environment. There was less back-and-forth, less waiting, and less stress for both testers and developers.
 
-In 2025 and early 2026, we averaged **2.4 deployments a week** to the live system, including urgent fixes and deployments done by hand. By then, we needed far fewer urgent fixes, and the share of proposed code changes reviewed by another developer had risen from **70% to 98%**.
+In 2025 and early 2026, we averaged **2.4 deployments a week** to the live system, including urgent fixes and deployments done by hand. By then, our continuous delivery pipeline was in place. We needed far fewer urgent fixes, and the teams felt they had more time to focus on work that mattered.
+
+The share of proposed code changes reviewed by another developer had risen from **70% to 98%**. Our typical lead time for changes was **7 to 14 days**, which gave us a timeframe we could share with the business.
 
 ## What was worth the team’s time?
 
