@@ -22,7 +22,7 @@ Three weeks later, we had a demo of the new feature. It showed membership and in
 
 Then we had to find time to test it. Our testers were already booked for the big release. To release our feature on its own, we needed to test it against the software people were already using.
 
-I worked with Li and another tester to decide which of their other tasks could wait. We set up a separate place to test the feature. People from the business tried it before launch.
+I worked with Li and another tester to decide which of their other tasks could wait. We set up a separate environment to test the feature through our testing cycle (feature, integration, system, uat). People from the business tried it on our uat environment before launch.
 
 The feature went live two weeks after the demo, ahead of the big release. We started hearing what people thought straight away. That’s how our DevOps journey started.
 
