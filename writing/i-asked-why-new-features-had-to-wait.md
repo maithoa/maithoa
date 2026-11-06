@@ -10,7 +10,7 @@ If you wanted a small improvement to the same software, there were two dates on 
 
 Most of those fixes landed with two senior developers. Aaron was one of them. When he picked up a fix, his work on the next big release had to wait.
 
-I asked the business leads and the developers why new features had to wait. Both groups figured that was just how it worked. The business leads would have been happy to get something useful sooner. Could we get one small change to them before the next big release?
+I asked the business leads and the developers why new features had to wait. Both groups said that was just how it worked. The business leads would have been happy to get something useful sooner. Could we get one small change to them before the next big release?
 
 ## We started with a spreadsheet
 
@@ -18,19 +18,21 @@ The business team used Excel to answer two questions about each person. Did they
 
 I picked that workflow for our first small release. The spreadsheet showed us what the first version needed to track, and the business team could keep it as a fallback.
 
-Three weeks later, we had a demo. The people doing the work in Excel wanted to use it.
+Three weeks later, we had a demo of the new feature. The people doing the work in Excel wanted to use it.
 
-The testers were already booked, and the version they were testing included other changes planned for the big release. To send out our feature on its own, we needed to see how it worked with the software people were using that day.
+Our testers were already booked, and the version they were testing included other changes planned for the big release. To release the feature on its own, we needed to test it against the software people were already using.
 
-I worked with Li and another tester to decide what could wait. We set up a separate place to test the feature against the version our users already had. People from the business tried it before launch.
+I worked with Li and another tester to decide which of their other tasks could wait. We set up a separate place to test the feature. People from the business tried it before launch.
 
-The feature went live ahead of the big release. We started hearing what people thought straight away. That’s how our DevOps journey started.
+The feature went live two weeks after the demo, ahead of the big release. We started hearing what people thought straight away. That’s how our DevOps journey started.
 
 ## Could we do that again?
 
-I asked the developers to take turns handling urgent fixes and agree on which problems needed immediate attention. That gave Aaron and the other developer more time for planned work.
+Of course we could. But first we had to make room for it.
 
-We also took one wait out of testing. Testers used to wait for a developer to install each new version for them. We automated that step. When developers merged a change into the shared code, it went straight to the right test environment.
+I asked all the developers to take turns handling urgent fixes and agree on which problems needed immediate attention. That gave Aaron and the other senior developer more time for planned work.
+
+We also took one wait out of testing. Testers used to wait for a developer to deploy each new version to a test environment. We automated that step. When developers merged a change into the shared code, it went straight to the right test environment. There was less back-and-forth, less waiting, and less stress for both testers and developers.
 
 In 2025 and early 2026, we averaged **2.4 deployments a week** to the live system, including urgent fixes and deployments done by hand. By then, we needed far fewer urgent fixes, and the share of proposed code changes reviewed by another developer had risen from **70% to 98%**.
 
