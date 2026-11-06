@@ -2,22 +2,34 @@
 
 By Thoa Nguyen
 
-I asked our business leads why new features had to wait for one of two release dates each year. They told me they had assumed that was how software development worked. They would have been happy to get useful changes sooner.
+Every few days, we shipped an urgent fix.
 
-The developers had a different worry. Urgent fixes were going live every few days, and the same two developers handled most of them. The team worried that squeezing in more changes would leave them with even less time for the big release they were already working on.
+New features had two dates on the calendar. Two for the entire year.
 
-I started out as a developer, and I still like to see how the work actually gets done. I wanted to understand what users were waiting for and what made it hard for the team to get a change into their hands.
+![A developer waits beside a calendar with two dates circled. In the next scene, a developer shows a small change to a colleague.](assets/smaller-releases.webp)
 
-## We started with a spreadsheet
+I asked our business leads why new features had to wait. They thought that was just how software development worked. They would have been happy to get useful changes sooner.
 
-I picked one workflow the business was already doing in Excel. We agreed on what a small first version needed to do and built a demo in three weeks. The business wanted to use it. The team explained what was in the way. The testers were already booked, and the test environments contained changes for the big release.
+The developers were looking at a different calendar. The same two people handled most of the urgent fixes, and the team was already trying to get the next big release out the door. Where exactly was another release supposed to go?
 
-I agreed with two testers on what work could wait. We set up separate environments to test the feature against the version people were already using, and business representatives tried it before launch. Once it went live, users gave us feedback straight away.
+I started out as a developer. I wanted to follow one small change all the way to a user and see where it got stuck.
 
-## The next release had to be easier
+## A small change meets a big release
 
-I asked the team to take turns handling urgent fixes and agree on which problems needed immediate attention. We also automated the handoff that kept testers waiting. Once code was merged, testers could start their checks in the right environment without waiting for a developer to deploy it by hand.
+The business was already doing one of its workflows in Excel. I picked that one. We agreed on what the first version needed to do, and three weeks later we had a demo. The people who had been doing the work in Excel wanted to use it.
 
-In 2025 and early 2026, we averaged **2.4 production deployments a week**, including urgent fixes and manual deployments. By then, we needed far fewer urgent fixes. The share of pull requests that received a code review rose from **70% to 98%**.
+It felt like we were nearly there.
 
-The engineers told me that knowing who needed a change and why helped them think through the design. That's a conversation I want engineers to be part of from the start. They're the ones who have to turn what they hear into something people can use.
+Then we tried to find somewhere to test it.
+
+The testers were booked, and the test environments were already full of changes for the big release. We had a small feature ready to test and nowhere to try it against the version users actually had.
+
+I worked with two testers to decide what could wait. We set up separate test environments for the feature, and business representatives tried it before launch. Once it went live, feedback started coming in straight away.
+
+## Could we do that again?
+
+I asked the team to take turns handling urgent fixes and agree on which problems really needed immediate attention. We also took one small wait out of the workflow. A tester used to have to wait for a developer to deploy the code by hand. Once we automated that step, merging the code got it into the right test environment.
+
+In 2025 and early 2026, we averaged **2.4 production deployments a week**, including urgent fixes and manual deployments. We needed far fewer urgent fixes by then, and the share of pull requests that received a code review rose from **70% to 98%**.
+
+The engineers told me something that stuck with me. Knowing who needed a change and why helped them think through the design. Now, when I ask an engineer to build something around a spreadsheet, I want them to hear from the person who uses it.
