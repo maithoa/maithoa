@@ -4,7 +4,7 @@ I started out as a software developer and have led cross-functional engineering 
 
 ## Writing
 
-- [I Asked Why New Features Had to Wait](writing/i-asked-why-new-features-had-to-wait.md)
+- [From Two Big Releases a Year to 2.4 Deployments a Week](writing/i-asked-why-new-features-had-to-wait.md)
 
 ## Code
 
