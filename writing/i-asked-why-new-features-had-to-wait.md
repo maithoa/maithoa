@@ -2,54 +2,38 @@
 
 By Thoa Nguyen
 
-I get asked about this fairly often, so I decided to type it out. 😀
+When I joined the team in 2021, we were putting out urgent fixes every few days.
 
-Back in 2021, I met my new team. They were a smart bunch, and a little stressed. DevOps had been a word for years. We had two big release dates on the calendar.
-
-Every few days, we shipped an urgent fix. The next big release was still months away.
+If you wanted a small improvement to the same software, there were two dates on the calendar for the whole year. Miss one, and you could spend months doing the same work the hard way.
 
 ![A developer waits beside a calendar with two dates circled. In the next scene, a developer shows a small change to a colleague.](assets/smaller-releases.webp)
 
-I asked our business leads why new features had to wait. They thought that was just how software development worked. They would have been happy to get something useful sooner.
+Most of those fixes landed with two senior developers. Aaron was one of them. When he picked up a fix, his work on the next big release had to wait.
 
-I asked the developers the same question. They gave me pretty much the same answer. That was how it worked.
+I asked the business leads and the developers why new features had to wait. Both groups figured that was just how it worked. The business leads would have been happy to get something useful sooner. Could we get one small change to them before the next big release?
 
-Meanwhile, the same two experienced developers handled most of the urgent fixes, and the team was trying to get the next big release out the door. I’d started out as a developer, and I knew what it felt like to work that way. I wanted the team to experience what DevOps could do for us. Could we get one useful change into people’s hands and hear what they thought while the work was still fresh?
+## We started with a spreadsheet
 
-## A small change meets a big release
+The business team was already using Excel to work around a problem. I picked that one. We could see how people did the work, agree on a small first version, and keep the spreadsheet as a fallback.
 
-Early on, I spent a lot of time with our business leaders trying to understand what was getting in their way. One problem caught my attention. The business team was already working around it in Excel.
+Three weeks later, we had a demo. The people doing the work in Excel wanted to use it.
 
-That made it a good first pick. We could see how people did the work, agree on a small first version, and leave them with a familiar fallback if they needed it. Three weeks later, we had a demo. The people doing the work in Excel wanted to use it.
+The testers were already booked, and the version they were testing included other changes planned for the big release. To send out our feature on its own, we needed to see how it worked with the software people were using that day.
 
-To the business, it looked like we were almost there. If you’ve worked on a waterfall project, you can probably guess what came next. :)
+I worked with Li and another tester to decide what could wait. We set up a separate place to test the feature against the version our users already had. People from the business tried it before launch.
 
-- Features were piling up in the development branches for the big release.
-- Production was thousands of commits behind those branches.
-- The testers were booked, and the test environments already contained changes for the big release.
-
-We could have put the feature on the same release date as everything else. But we already had people who wanted to try it. What would it take to get it to them sooner?
-
-I worked with two testers to decide what could wait. We set up separate environments so we could test the feature against the version users already had. Business representatives tried it before launch. Once it went live, feedback started coming in straight away.
-
-That’s how our DevOps journey started.
+The feature went live ahead of the big release. We started hearing what people thought straight away. That’s how our DevOps journey started.
 
 ## Could we do that again?
 
-First, we needed to make room for planned work. I asked the developers to take turns handling urgent fixes and agree on which problems actually needed immediate attention. That gave the two people who had been handling most of the fixes more time for other work.
+I asked the developers to take turns handling urgent fixes and agree on which problems needed immediate attention. That gave Aaron and the other developer more time for planned work.
 
-We also took one small wait out of the workflow. Testers used to wait for a developer to deploy the code by hand. Once we automated that step, merging the code put it in the right test environment.
+We also took one wait out of testing. Testers used to wait for a developer to install each new version for them. We automated that step. When developers merged a change into the shared code, it went straight to the right test environment.
 
-In 2025 and early 2026, we averaged **2.4 production deployments a week**, including urgent fixes and manual deployments. By then, we needed far fewer urgent fixes, and the share of pull requests that received a code review had risen from **70% to 98%**.
+In 2025 and early 2026, we averaged **2.4 deployments a week** to the live system, including urgent fixes and deployments done by hand. By then, we needed far fewer urgent fixes, and the share of proposed code changes reviewed by another developer had risen from **70% to 98%**.
 
-That first release was how we got started. Getting to 2.4 deployments a week took a few years, and we kept coming back to three questions.
+Over those years, we got better at judging which problems mattered to users, deciding what belonged in a first version, and automating the steps we repeated with each release.
 
-Who is affected by this problem, and how much does it get in their way?
+Next time, I’ll go back to the interruptions that kept pulling Aaron away from his work. **What actually counts as urgent?**
 
-What’s the smallest version that would actually help them?
-
-Which parts of testing and releasing could we automate so the next change would be easier to ship?
-
-And remember the two developers who handled most of the urgent fixes? Taking turns helped spread the work. We still had to agree on when a problem was worth asking someone to drop what they were doing.
-
-**What actually counts as urgent?** That’s where I’ll pick up next time.
+*Names have been changed.*
