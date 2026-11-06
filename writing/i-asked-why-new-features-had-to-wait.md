@@ -18,11 +18,11 @@ The business team used Excel to answer two questions about each prospect. Did th
 
 I picked that workflow for our first small release. The spreadsheet showed us what the first version needed to track, and the business team could keep it as a fallback.
 
-Three weeks later, we had a demo of the new feature. It showed membership and invitation status alongside the information we already had about each prospect. The business team could stop updating the spreadsheet and spend less time cross-checking records across systems. They wanted to start using it.
+A week later, we had a demo of the new feature. It showed membership and invitation status alongside the information we already had about each prospect. The business team could stop updating the spreadsheet and spend less time cross-checking records across systems. They wanted to start using it.
 
 Then we had to find time to test it. Our testers were already booked for the big release. To release our feature on its own, we needed to test it against the software people were already using.
 
-I worked with Li and another tester to decide which of their other tasks could wait. We set up a separate environment to test the feature through our testing cycle (feature, integration, system, uat). People from the business tried it on our uat environment before launch.
+I worked with Li and another tester to decide which of their other tasks could wait. We set up separate environments to test the feature through our testing cycle (feature, integration, system, uat). People from the business tried it on our uat environment before launch.
 
 The feature went live two weeks after the demo, ahead of the big release. We started hearing what people thought straight away. That’s how our DevOps journey started.
 
