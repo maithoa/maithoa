@@ -14,11 +14,11 @@ I asked the business leads and the developers why new features had to wait. Both
 
 ## We started with a spreadsheet
 
-The business team used Excel to answer two questions about each person. Did they already have a membership? Had we sent them an invitation to try it?
+The business team used Excel to answer two questions about each prospect. Did he or she already have a membership? Had we sent him/her an invitation to try it?
 
 I picked that workflow for our first small release. The spreadsheet showed us what the first version needed to track, and the business team could keep it as a fallback.
 
-Three weeks later, we had a demo of the new feature. The people doing the work in Excel wanted to use it.
+Three weeks later, we had a demo of the new feature. It solved the problem better as it integrated with our data about the person, and by having that we did not only remove the excel work but also time to manage and cross references data between different systems. The people doing the work in Excel wanted to use it.
 
 Our testers were already booked, and the version they were testing included other changes planned for the big release. To release the feature on its own, we needed to test it against the software people were already using.
 
