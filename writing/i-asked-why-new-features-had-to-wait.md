@@ -36,7 +36,9 @@ We also took one wait out of testing. Testers used to wait for a developer to de
 
 In 2025 and early 2026, we averaged **2.4 deployments a week** to the live system, including urgent fixes and deployments done by hand. By then, we needed far fewer urgent fixes, and the share of proposed code changes reviewed by another developer had risen from **70% to 98%**.
 
-Over those years, we got better at judging which problems mattered to users, deciding what belonged in a first version, and automating the steps we repeated with each release.
+## What was worth the team’s time?
+
+There was always another nice-to-have we could build. Agreeing on which problem mattered most to the business helped us choose what to work on first and what belonged in the first version. Making it easier to test and release that version meant people could start using it sooner.
 
 Next time, I’ll go back to the interruptions that kept pulling Aaron away from his work. **What actually counts as urgent?**
 
